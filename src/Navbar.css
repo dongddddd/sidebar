@@ -1,8 +1,7 @@
 .navbar{
     background-color: #ffffff;
-    height: 80px;
+    height: 120px;
     display: flex;
-    justify-items: flex-end;
     align-items: center;
 }
 .menu {
@@ -12,10 +11,12 @@
 }
 .menu-bars {
     display: flex;
-    flex-direction: row;
-    margin-left: 2rem;
-    font-size: 2rem;
-    background:none;
+    align-items: center;
+}
+.sidemenu {
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 30px;
 }
 .nav-menu {
     background-color: #060b26;
@@ -64,36 +65,29 @@
     justify-content: flex-start;
     align-items: center;
 }
-.GDSC-Logo {
-    position: relative;
-    left: 55px;
-    width: 47px;
-    height: 30px;
-}
 .Blog-Text {
+    align-items: center;
+}
+.GDSC-Blog {
+    display: flex;
+    padding-bottom: 18px;
+}
+.univ {
+    padding-top: 12px;
+    padding-bottom: 5px;
     display: flex;
     margin-left: 5px;
 }
-.GDSC-Blog {
-    position: relative;
-    display: flex;
-    left: 20px;
-    width: 130px;
-    height: 28px;
-}
-.univ {
-    position: relative;
-    display: flex;
-    left: 55px;
-    width: 51px;
-    height: 10px;
+.logo {
+    margin-top: 30px;
 }
 .search {
     position: absolute;
     right: 10px;
-    width: 200px;
-    height: 30px;
+    width: 480px;
+    height: 38px;
+    border-radius: 50px;
 }
-span {
-    margin-left:16px;
+.span {
+    margin-left: 16px;
 }
