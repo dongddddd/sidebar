@@ -76,12 +76,14 @@
 }
 .GDSC-Blog {
     position: relative;
+    display: flex;
     left: 20px;
     width: 130px;
     height: 28px;
 }
 .univ {
     position: relative;
+    display: flex;
     left: 55px;
     width: 51px;
     height: 10px;
