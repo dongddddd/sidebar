@@ -1,11 +1,18 @@
 .navbar{
-    background-color: #060b26;
+    background-color: #ffffff;
     height: 80px;
     display: flex;
-    justify-items: center;
+    justify-items: flex-end;
     align-items: center;
 }
-.menu-bars{
+.menu {
+    display: flex;
+    left: 0;
+    position: fixed;
+}
+.menu-bars {
+    display: flex;
+    flex-direction: row;
     margin-left: 2rem;
     font-size: 2rem;
     background:none;
@@ -56,6 +63,34 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+.GDSC-Logo {
+    position: relative;
+    left: 55px;
+    width: 47px;
+    height: 30px;
+}
+.Blog-Text {
+    display: flex;
+    margin-left: 5px;
+}
+.GDSC-Blog {
+    position: relative;
+    left: 20px;
+    width: 130px;
+    height: 28px;
+}
+.univ {
+    position: relative;
+    left: 55px;
+    width: 51px;
+    height: 10px;
+}
+.search {
+    position: absolute;
+    right: 10px;
+    width: 200px;
+    height: 30px;
 }
 span {
     margin-left:16px;
