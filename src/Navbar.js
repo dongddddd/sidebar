@@ -13,7 +13,7 @@ function Navbar() {
       <IconContext.Provider value={{ color: "#fff" }}>
         {/* 네비게이션 토글 코드*/}
         <div className="navbar">
-          <div className="sidemenu">
+          <div className="Side-menu">
             <svg
               className="menu"
               onClick={showSidebar}
