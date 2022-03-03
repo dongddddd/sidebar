@@ -82,7 +82,15 @@
     width: 480px;
     height: 38px;
     border-radius: 50px;
+    border: 1px solid #D1D6DB;
 }
-.span {
+.search::placeholder {
+    padding-left: 15px;
+    color: #D1D6DB;
+}
+.search:focus {
+    outline: 1px solid #D1D6DB;
+}
+span {
     margin-left: 16px;
 }
